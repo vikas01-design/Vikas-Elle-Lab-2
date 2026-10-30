@@ -10,10 +10,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 // Database path
-const dbPath =
-  process.env.NODE_ENV === 'production'
-    ? '/var/data/books.db'
-    : path.join(__dirname, 'books.db');
+const dbPath = path.join(__dirname, 'books.db');
 
 let db = null;
 
