@@ -76,6 +76,12 @@ Lab-Report-2/
 ├── .gitignore
 └── README.md
 ```
+### Database 
+
+The following screenshot shows the `book` table in the SQLite database, containing 10 book records with their respective IDs, titles, authors, prices, and page counts.
+
+<img width="992" height="470" alt="database-schema" src="https://github.com/user-attachments/assets/03503a3e-fd50-4b8b-b45f-62bd0e499389" />
+
 
 ## 5. Installation and Execution
 
